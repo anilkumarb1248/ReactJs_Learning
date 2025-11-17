@@ -40,3 +40,28 @@
 .read-the-docs {
   color: #888;
 }
+
+
+/* Select the button element */
+button {
+  background-color: #177896; /* Blue background */
+  color: white; /* White text */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  margin: 5px; /* Add some space around buttons */
+}
+
+/* Add a hover effect */
+button:hover {
+  background-color: #64696f;
+}
+
+/* Add focus style for accessibility */
+button:focus {
+  outline: 3px solid #66b8ff;
+  outline-offset: 2px;
+}
