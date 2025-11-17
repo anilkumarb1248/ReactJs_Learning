@@ -12,16 +12,16 @@ import UseStateDemosComp from './Components/UseStateDemos/UseStateDemosComp'
 function App() {
 
   return (
-    <div>
+    <div className="App">
       {/* <UseStateDemosComp /> */}
-      <UseEffectDemosComp />
+      {/* <UseEffectDemosComp /> */}
       {/* <UseContextDemosComp /> */}
       {/* <UseReducerDemosComp /> */}
+        {/* <UseCallbackDemosComp /> */}
       {/* <UseMemoDemosComp /> */}
       {/* <UseRefDemosComp /> */}
-      {/* <UseCallbackDemosComp /> */}
       {/* <OtherImpHooksDemosComp /> */}
-      {/* <CustomHooksDemosComp /> */}
+      <CustomHooksDemosComp />
     </div>
   )
 }

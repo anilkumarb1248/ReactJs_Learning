@@ -25,7 +25,7 @@ export default function DataFetchIndividualPosts() {
     }
     return (
         <div>
-            <input type="text" value={id} onChange={(e) => setId(e.target.value)}/>
+            <input type="text" value={id} onChange={(e) => setId(e.target.value)} />
             <button onClick={handleBtnClick}> Fetch Post </button>
             <h3>{post.id} : {post.title} </h3>
         </div>
