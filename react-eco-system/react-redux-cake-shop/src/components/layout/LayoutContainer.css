@@ -1,0 +1,37 @@
+/* The parent container centers the boxes or holds them in place */
+.parent-container {
+    display: flex;
+    /* Enables Flexbox */
+    justify-content: space-between;
+    /* Pushes one to the left, one to the right */
+    width: 100%;
+    /* Takes up full width of the screen */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Common styles for both child divs */
+.child-box {
+    width: 500px;
+    /* Fixed width */
+    height: 300px;
+    /* Fixed height */
+    border: 2px solid green;
+    /* Green border 2px thick */
+    display: flex;
+    /* align-items: center; */
+    /* Centers text vertically */
+    justify-content: center;
+    /* Centers text horizontally */
+    box-sizing: border-box;
+    /* Ensures border is included in the 200px width */
+}
+
+/* Specific styling if you want different backgrounds or text alignment */
+.left {
+    background-color: #f0fff0;
+}
+
+.right {
+    background-color: #e6fffa;
+}
