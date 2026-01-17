@@ -1,112 +1,14 @@
-
-import './App.css'
-import Greet from './Components/PropsDemos/Greet';
-import Welcome from './Components/Basics/Welcome';
-import Test from './Components/Basics/Test';
-import Book from './Components/PropsDemos/Book';
-import Student from './Components/PropsDemos/Student';
-import Parent from './Components/Basics/Parent';
-import Profile from './Components/PropsDemos/Profile';
-import FruitList from './Components/Basics/FruitList';
-import Products from './Components/PropsDemos/Products';
-import EmployeeData from './Components/PropsDemos/EmployeeData';
-import MyClassComponent from './Components/StateDemos/MyClassComponent';
-import StateDemos from './Components/StateDemos/StateDemos';
-import EventHandlingDemos from './Components/EventHandlingDemos/EventHandlingDemos';
-import Communication from './Components/Communication/Communication';
-import RenderingDemos from './Components/Rendering/RenderingDemos';
-import LifeCycleDemos from './Components/LifeCycleDemos/LifeCycleDemos';
-import PureComponentDemo from './Components/PureComponentDemo/PureComponentDemo';
-import RefsDemos from './Components/RefsDemos/RefsDemos';
-import PortalDemos from './Components/PortalDemos/PortalDemos';
-import ErrorBoundaryDemos from './Components/ErrorBoundaryDemos/ErrorBoundaryDemos';
-import HOCDemos from './Components/HOCDemos/HOCDemos';
-import RenderPropsDemos from './Components/RenderPropsDemos/RenderPropsDemos';
-import ContextDemos from './Components/ContextDemos/ContextDemos';
-
+import "./App.css";
+import BasicsDemos from "./Components/Basics/BasicsDemos";
+import ConditionalRenderingDemos from "./Components/ConditionalRendering/ConditionalRenderingDemos";
+import PropsDemos from "./Components/PropsDemos/PropsDemos";
 
 function App() {
-
-  const student = {
-    name:"Anil Kumar Bandari",
-    "standard":"5th",
-    "grade":"D"
-  }
-
-  const profile = {
-    // Basic Personal Information
-    firstName: "Anil Kumar",
-    lastName: "Bandari",
-    fullName: "Anil Kumar Bandari",
-    age: "35",
-    gender: "Male",
-    dateOfBirth:"11 May 1990",
-    // Contact Information
-    email : "abc@test.com",
-    phoneNumber : "9876543210",
-    address : "Patancheru",
-    city : "Hyderabad",
-    state : "Telangana",
-    country : "India",
-    zipCode : "123456"
-  }
-
   return (
     <div className="App">
-      {/* <h1>Hello Bandari, Welcome to React Learning!</h1> */}
-      {/* <Greet/> */} {/* Functional Component*/}
-      {/*<Welcome/> */} {/* Class Component*/}
-     {/* <Test/>*/}
-      {/*
-        <Book title="Mastering React" author="Anthony Pham" />
-        <Book title="Practical React" author="Alex Johnson" />
-        <Book title="React in Action" author="Bob Climo" />
-      */}
-          {/* <Student name="Anil" standard="5th" grade="C"/>
-          <Student name="Manasvi" standard="10th" grade="A"/>
-          <Student name="Hithiksha" standard="UKG" grade="A"/>
-          <Student name="Shreetan" standard="Nursery" grade="B"/> */}
-
-          {/* <Student student={student}/> */}
-
-          {/* <Parent/> */}
-
-          {/* <Profile profile={profile}/> */}
-
-          {/* <Greet name="Anil" role="SE">
-            <h4> Welcome to the company</h4>
-          </Greet>
-          <Greet name="Manasvi" role="TL">
-            <button>Assign Tasks</button>
-          </Greet>
-          <Greet name="Hithiksha" role="CEO">
-            <Welcome></Welcome>
-          </Greet>
-          <Greet name="Shreetan" role="Manager"></Greet> */}
-
-          {/* <FruitList/> */}
-
-          {/* <Products/> */}
-
-          {/* <EmployeeData/> */}
-
-          {/* <Welcome name='Anil Kumar' company='ABC'/>
-          <MyClassComponent/> */}
-          
-          {/* <StateDemos/> */}
-
-          {/* <EventHandlingDemos/> */}
-          {/* <Communication/> */}
-          {/* <RenderingDemos/> */}
-          {/* <LifeCycleDemos/> */}
-          {/* <PureComponentDemo/> */}
-          {/* <RefsDemos/> */}
-          {/* <PortalDemos/> */}
-          {/* <ErrorBoundaryDemos/> */}
-          {/* <HOCDemos/> */}
-          {/* <RenderPropsDemos/> */}
-          <ContextDemos/>
-
+      {/* <BasicsDemos /> */}
+      {/* <PropsDemos /> */}
+      <ConditionalRenderingDemos />
     </div>
   );
 }
