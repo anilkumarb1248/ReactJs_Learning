@@ -1,0 +1,16 @@
+/* Element Selector CSS - it will apply all <p> elements */
+p {
+    color: green;
+    font-size: x-large;
+    font-style: italic
+}
+
+/* Id selector CSS - it will apply only to the elements which has added id as 'headerStyle' */
+#headerStyle {
+    background-color: lightyellow
+}
+
+/* class selector CSS - it will apply only to the elements which has added className as 'h2Style' */
+.h2Style {
+    color: blue
+}

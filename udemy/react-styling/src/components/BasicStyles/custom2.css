@@ -1,0 +1,16 @@
+
+/* Contextual select CSS - It will apply to matched (parent/child -contextual elements) elements */
+/* Descendant selectors, li inside ul */
+ul li {
+    color: brown;
+    background-color: antiquewhite;
+    margin-top: 15px;
+}
+
+/* Grouping of Selectors, css will apply to all the elements */
+h3,
+h4,
+h5 {
+    color: grey;
+    background-color: gold;
+}
