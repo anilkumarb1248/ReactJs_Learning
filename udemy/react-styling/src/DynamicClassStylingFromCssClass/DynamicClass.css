@@ -1,0 +1,21 @@
+
+/* .label {
+    color: blue;
+    font-size: x-large;
+}
+
+label.invalid {
+    color:red;
+    font-size: large;
+} */
+
+
+.label {
+    font-size: x-large;
+    font-style: italic;
+}
+
+label.invalid {
+    color: red;
+    font-weight: bold;
+}

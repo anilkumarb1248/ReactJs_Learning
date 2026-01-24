@@ -1,0 +1,30 @@
+/* Element Selector CSS - it will apply all <p> elements */
+p {
+    color: green;
+    font-size: x-large;
+    font-style: italic
+  }
+
+/* Id selector CSS - it will apply only to the elements which has added id as 'headerStyle' */
+#headerStyle {
+    background-color: lightyellow
+}
+
+/* class selector CSS - it will apply only to the elements which has added className as 'h2Style' */
+.h2Style {
+    color: blue
+}
+
+/* Contextual select CSS - It will apply to matched (parent/child -contextual elements) elements */
+/* Descendant selectors, li inside ul */
+ul li {
+    color:brown;
+    background-color: antiquewhite;
+    margin-top: 15px;
+}
+
+/* Grouping of Selectors, css will apply to all the elements */
+h3, h4, h5 {
+    color: grey;
+    background-color: gold;
+}
