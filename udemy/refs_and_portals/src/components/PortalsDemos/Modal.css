@@ -1,0 +1,17 @@
+/* Styles for the dialog element itself */
+dialog {
+    padding: 2rem;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* The ::backdrop pseudo-element automatically styles the area outside the modal */
+dialog::backdrop {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+/* Optional: Prevent scrolling on the main page when the modal is open */
+.modal-open {
+    overflow: hidden;
+}
